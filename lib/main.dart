@@ -17,13 +17,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'News App',
-      theme: ThemeData.light(),
+      // theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      /*
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),*/
+      ),
       initialRoute: KdramaScreen.routeName,
       routes: {
         MoreNewsScreen.routeName: (context)=> MoreNewsScreen(
